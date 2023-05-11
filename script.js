@@ -2,6 +2,7 @@
        const toggle = document.getElementById('flexSwitchCheckChecked');
        const body = document.querySelector('body');
        const accord = document.querySelector('.accordion-body')
+      const link = document.querySelector(".link")
 
        toggle.addEventListener('change', function(){
        if(toggle.checked){
@@ -13,8 +14,7 @@
         body.classList.remove('active')
         accord.classList.remove('bg-dark')
         accord.classList.remove('text-light')
-       }
-    });
+    }});
 
       const emptName = document.getElementById("name-input")
       const emptMail =  document.getElementById("mail.input")
@@ -37,7 +37,7 @@
 
       btn.addEventListener("click", function(){
          if ((emptName.value != "") && (emptMail.value != "") && (dropL.value != "")) {
-            alert("Request sent, await my response")
+            alert("Details sent, await my response")
          }
       })
 

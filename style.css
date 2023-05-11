@@ -36,12 +36,11 @@ nav ul a {
     align-self: center;
 
 }
-nav ul a:active{
-    font-weight: 700;
-}
+
 nav ul a:hover{
-    color:#000
+    color:red;
 }
+
 nav ul {
     /* outline: 1px solid red; */
     width:50vw;
@@ -59,8 +58,8 @@ nav ul {
 .img-cent{
     border: 20px solid blue;
     border-radius: 60rem;
-    width:30vw;
-    height:60vh;
+    width:34vw;
+    height:64vh;
     position: relative;
     margin-right: 5rem;
     
@@ -108,6 +107,7 @@ nav ul {
     display: inline;
     margin-left:75%;
     
+    
 }
 .social a{
     /* outline: 1px solid red; */
@@ -117,7 +117,7 @@ nav ul {
 
 .section2{
     /* outline: 1px solid red; */
-    padding-top: 2rem;
+    padding-top: 5rem;
     margin-bottom: 4rem;
 }
 
@@ -137,6 +137,7 @@ nav ul {
     /* outline: 1px solid red; */
     width: 40vw;
     margin-left: 1rem;
+    margin-right: 4rem;
 
 }
 .code h3{
@@ -166,6 +167,7 @@ nav ul {
 .gauge{
     /* outline: 1px solid red; */
     width:40vw;
+    padding-left: 12rem;
 }
 .gauge h3{
     font-size:1.5rem
