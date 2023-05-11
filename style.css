@@ -9,16 +9,15 @@
     font-family: 'Manrope', sans-serif;
     
 }
+.clear {
+    text-decoration: none;
+}
 body.active{
     background-color: #000;
     color: #fff
 
 }
 
-
-.section1{
-    
-}
 nav{
     display: flex;
     /* outline: 1px solid red; */
@@ -35,6 +34,7 @@ nav ul a {
     margin-right: 1rem;
     font-size: 1.1rem;
     align-self: center;
+
 }
 nav ul a:active{
     font-weight: 700;
@@ -94,7 +94,7 @@ nav ul {
 }
 .mybtn{
     /* border-radius: 50px; */
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background-color: blue;
     width:12rem;
     height:4rem;
@@ -118,6 +118,7 @@ nav ul {
 .section2{
     /* outline: 1px solid red; */
     padding-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .big {
@@ -200,7 +201,7 @@ nav ul {
     margin-left: 1.5rem;
 }
 
-#php{
+#node{
     color:dodgerblue;
     width: 35vw;
     height:2rem;
@@ -215,15 +216,20 @@ nav ul {
 
 .section3{
     /* outline: 1px solid red; */
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .section4{
     /* outline: 1px solid red; */
+    padding-bottom: 3rem;
 }
 
 .section5{
     /* outline: 1px solid red; */
     margin-top: 5rem;
+    padding-top: 2rem;
 }
 
 .inp{
@@ -236,5 +242,15 @@ nav ul {
     height: 3rem;
     margin-bottom: 3rem;
     font-size: 1.1rem;
+}
+
+.carImg{
+    width:30rem;
+    height:30rem;
+}
+
+.accord.active{
+    background-color:blue;
+    color:#fff;
 }
 
