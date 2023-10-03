@@ -1,258 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
-  body{
+body {
     margin-left: 5%;
     margin-right: 5%;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
     font-family: 'Manrope', sans-serif;
-    
+    box-sizing: border-box;
+
 }
+
 .clear {
     text-decoration: none;
 }
-body.active{
+
+body.active {
     background-color: #000;
     color: #fff
-
 }
 
-nav{
+nav {
     display: flex;
     /* outline: 1px solid red; */
     justify-content: space-between;
 }
-nav img{
-    width:5rem;
-    height:5rem;
+
+nav img {
+    width: 5rem;
+    height: 5rem;
 }
-nav ul a {
+
+.navLink {
     text-decoration: none;
-    color:dodgerblue;
+    color: dodgerblue;
     /* outline: 1px solid red; */
     margin-right: 1rem;
     font-size: 1.1rem;
     align-self: center;
+    transition: 1s;
 
 }
 
-nav ul a:hover{
-    color:red;
+.navLink:hover {
+    color: green;
+    transform: translateY(-8px);
 }
 
 nav ul {
     /* outline: 1px solid red; */
-    width:50vw;
+    width: 50vw;
     display: flex;
     align-content: center;
     justify-content: space-between;
 }
 
-.main{
+.main {
     display: flex;
     margin-top: 10rem;
     margin-bottom: 5rem;
     margin-left: 10%;
 }
-.img-cent{
+
+.img-cent {
     border: 20px solid blue;
     border-radius: 60rem;
-    width:34vw;
-    height:64vh;
+    width: 34vw;
+    height: 64vh;
     position: relative;
     margin-right: 5rem;
-    
+
 }
-.img-cent img{
+
+.img-cent img {
     position: absolute;
-    width:100%;
+    width: 100%;
     margin-left: -2rem;
 }
-.comb{
+
+.comb {
     /* outline: 1px solid red; */
-    height:35rem;
+    height: 35rem;
     width: 45vw;
     margin-top: 5rem;
-    
+
 }
-.comb h1{
+
+.comb h1 {
     font-size: 5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.comb p{
+
+.comb p {
     font-size: 1.2rem;
     margin-top: 0rem;
     margin-bottom: 2.5rem;
 }
-.buttons{
-    display:flex;
-    margin-bottom:9rem;
-    
+
+.buttons {
+    display: flex;
+    margin-bottom: 9rem;
+
 }
-.mybtn{
+
+.mybtn {
+    border: none;
     /* border-radius: 50px; */
     /* border: 3px solid black; */
     background-color: blue;
-    width:12rem;
-    height:4rem;
+    width: 12rem;
+    height: 4rem;
     color: #fff;
     margin-right: 1rem;
     font-size: 1rem;
     font-family: poppins;
 }
-.social{
+
+.social {
     /* outline: 1px solid red; */
-    display: inline;
-    margin-left:75%;
-    
-    
-}
-.social a{
-    /* outline: 1px solid red; */
-    margin-left:3rem;
+    /* display: inline; */
+    margin-left: 60%;
+
 
 }
 
-.section2{
+.social a {
+    /* outline: 1px solid red; */
+    margin-left: 3rem;
+
+}
+
+.section2 {
     /* outline: 1px solid red; */
     padding-top: 5rem;
     margin-bottom: 4rem;
 }
 
 .big {
-    font-size:4rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
-.comb2{
+
+.comb2 {
     /* outline: 1px solid red; */
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 10rem;
 
 }
-.code{
+
+
+
+.code h3 {
+    font-size: 1.5rem
+}
+
+.ui {
+    /* outline: 1px solid red; */
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+.ui img {
+    width: 4rem;
+    height: 4rem;
+    align-self: center;
+    margin-right: 2rem;
+    /* outline: 1px solid red; */
+}
+
+#real {
+    margin-right: 3rem;
+}
+
+.gauge {
+    /* outline: 1px solid red; */
+    width: 35vw;
+    /* padding-left: 5rem; */
+}
+
+.guge {
+    padding-left: 5rem;
+    width: 35vw;
+}
+
+.code {
     /* outline: 1px solid red; */
     width: 40vw;
     margin-left: 1rem;
     margin-right: 4rem;
 
 }
-.code h3{
-    font-size:1.5rem
-}
-.ui{
-    /* outline: 1px solid red; */
-    display:flex;
-    margin-bottom: 1rem;
-    
-}
-.ui img{
-    width:4rem;
-    height:4rem;
-    align-self: center;
-    margin-right: 2rem;
-    /* outline: 1px solid red; */
-}
-#real{
-    margin-right: 3rem;
-}
-.txt{
-    /* outline: 1px solid red; */
 
+.gauge h3 {
+    font-size: 1.5rem
 }
 
-.gauge{
-    /* outline: 1px solid red; */
-    width:40vw;
-    padding-left: 12rem;
-}
-.gauge h3{
-    font-size:1.5rem
-}
-#html{
-    color:dodgerblue;
+#html {
+    color: dodgerblue;
     width: 35vw;
-    height:2rem;
-    margin-bottom: 3rem;
-}
-#css{
-    color:dodgerblue;
-    width: 35vw;
-    height:2rem;
+    height: 2rem;
     margin-bottom: 3rem;
 }
 
-#javascript{
-    color:dodgerblue;
+#css {
+    color: dodgerblue;
     width: 35vw;
-    height:2rem;
-    margin-bottom: 3rem;
-}
-#react{
-    color:dodgerblue;
-    width: 35vw;
-    height:2rem;
+    height: 2rem;
     margin-bottom: 3rem;
 }
 
-.damn{
+#javascript {
+    color: dodgerblue;
+    width: 35vw;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+#react {
+    color: dodgerblue;
+    width: 35vw;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+#node {
+    color: dodgerblue;
+    width: 35vw;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+#mysql {
+    color: dodgerblue;
+    width: 35vw;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.damn {
     margin-right: 3rem;
     margin-left: 1.5rem;
 }
 
-#node{
-    color:dodgerblue;
-    width: 35vw;
-    height:2rem;
-    margin-bottom: 3rem;
-}
-#mysql{
-    color:dodgerblue;
-    width: 35vw;
-    height:2rem;
-    margin-bottom: 3rem;
-}
 
-.section3{
+
+.section3 {
     /* outline: 1px solid red; */
     margin-top: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.section4{
+.section4 {
     /* outline: 1px solid red; */
     padding-bottom: 3rem;
 }
 
-.section5{
+.section5 {
     /* outline: 1px solid red; */
     margin-top: 5rem;
     padding-top: 2rem;
 }
 
-.inp{
-    width:25rem;
+.inp {
+    width: 25rem;
     height: 3rem;
     margin-bottom: 2rem;
 }
-.inp2{
-    width:25rem;
+
+.inp2 {
+    width: 25rem;
     height: 3rem;
     margin-bottom: 3rem;
     font-size: 1.1rem;
 }
 
-.carImg{
-    width:30rem;
-    height:30rem;
+.carImg {
+    width: 30rem;
+    height: 30rem;
 }
 
-.accord.active{
-    background-color:blue;
-    color:#fff;
+.accord.active {
+    background-color: blue;
+    color: #fff;
 }
 
+@media (max-width: 768px) {
+    body {
+        /* margin-left: 50%; */
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid #000; */
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 3%;
+    }
+
+    .img-cent {
+        border: 20px solid blue;
+        border-radius: 60rem;
+        width: 60vw;
+        height: 40vh;
+        position: relative;
+        margin: auto;
+
+    }
+
+    .img-cent img {
+        position: absolute;
+        width: 100%;
+        margin-left: -2rem;
+    }
+
+    .comb {
+        /* outline: 1px solid red; */
+        /* height: 35rem; */
+        width: 100%;
+        margin-top: 5rem;
+        padding: 10px;
+
+    }
+
+    .comb h1 {
+        font-size: 5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .comb p {
+        font-size: 1.2rem;
+        margin-top: 0rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .social {
+        /* outline: 1px solid red; */
+        /* display: inline; */
+        margin-left: 50%;
+
+
+    }
+
+    .social a {
+        /* outline: 1px solid red; */
+        margin-left: 3rem;
+
+    }
+
+    .buttons {
+        display: flex;
+        /* margin-bottom: 9rem; */
+        /* border: 3px solid black; */
+
+    }
+
+    .mybtn {
+        border: none;
+        border-radius: 50px;
+        background-color: blue;
+        width: 12rem;
+        height: 4rem;
+        color: #fff;
+        margin-right: 1rem;
+        font-size: 1rem;
+        font-family: poppins;
+    }
+
+    .comb2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ui {
+        /* outline: 1px solid red; */
+        display: flex;
+        margin-bottom: 1rem;
+        width: 90%
+    }
+
+    .guge {
+        padding-left: 5rem;
+        width: 90vw;
+    }
+
+    .code {
+        /* outline: 1px solid red; */
+        width: 90vw;
+        margin-left: 1rem;
+        margin-right: 4rem;
+
+    }
+
+    .buttons {
+        display: flex;
+        margin-bottom: 2rem;
+
+    }
+
+    .section3 {
+        /* outline: 1px solid red; */
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .section4 {
+        /* outline: 1px solid red; */
+        padding-bottom: 1rem;
+    }
+
+    .section5 {
+        /* outline: 1px solid red; */
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .section2 {
+        /* outline: 1px solid red; */
+        padding-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    #html {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #css {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #javascript {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #react {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #node {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #mysql {
+        color: dodgerblue;
+        width: 85vw;
+        height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+}
