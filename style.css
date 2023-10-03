@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
     font-family: 'Manrope', sans-serif;
@@ -23,6 +23,10 @@ nav {
     display: flex;
     /* outline: 1px solid red; */
     justify-content: space-between;
+}
+
+#navless {
+    margin-left: 50%;
 }
 
 nav img {
@@ -58,7 +62,7 @@ nav ul {
     display: flex;
     margin-top: 10rem;
     margin-bottom: 5rem;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .img-cent {
@@ -284,7 +288,17 @@ nav ul {
 }
 
 .accord.active {
-    background-color: blue;
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.section6 {
+    text-align: center;
+    background-color: #000066;
+    height: 50%;
+    width: 100%;
+    padding: 2rem;
+    margin: 0;
     color: #fff;
 }
 
@@ -328,12 +342,14 @@ nav ul {
     }
 
     .comb h1 {
+        /* outline: 1px solid red; */
         font-size: 5rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
 
     .comb p {
+        /* outline: 1px solid red; */
         font-size: 1.2rem;
         margin-top: 0rem;
         margin-bottom: 2.5rem;
@@ -385,8 +401,9 @@ nav ul {
     }
 
     .guge {
-        padding-left: 5rem;
+        padding-left: 1rem;
         width: 90vw;
+        margin-top: 2rem;
     }
 
     .code {
@@ -467,6 +484,23 @@ nav ul {
         width: 85vw;
         height: 2rem;
         margin-bottom: 3rem;
+    }
+
+    .inp {
+        width: 90%;
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .inp2 {
+        width: 90%;
+        height: 3rem;
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
+    }
+
+    #btn-click {
+        margin-left: 25%
     }
 
 }
