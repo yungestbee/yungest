@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+/* *{
+    margin: 0;
+
+} */
 body {
-    /* margin-left: 5%;
-    margin-right: 5%; */
+    /* margin-left: 5%; */
+    padding: 0;
+    margin-bottom: 0;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
     font-family: 'Manrope', sans-serif;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 
 }
 
@@ -300,6 +306,7 @@ nav ul {
     padding: 2rem;
     margin: 0;
     color: #fff;
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -319,7 +326,7 @@ nav ul {
     .img-cent {
         border: 20px solid blue;
         border-radius: 60rem;
-        width: 60vw;
+        width: 95%;
         height: 40vh;
         position: relative;
         margin: auto;
@@ -334,16 +341,16 @@ nav ul {
 
     .comb {
         /* outline: 1px solid red; */
-        /* height: 35rem; */
+        height: 35rem;
         width: 100%;
         margin-top: 5rem;
-        padding: 10px;
+        padding: 0px;
 
     }
 
     .comb h1 {
         /* outline: 1px solid red; */
-        font-size: 5rem;
+        font-size: 3rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
@@ -353,12 +360,19 @@ nav ul {
         font-size: 1.2rem;
         margin-top: 0rem;
         margin-bottom: 2.5rem;
+        width: 100%;
+    }
+
+    .buttons {
+        /* outline: 1px solid red; */
+        flex-direction: column;
+
     }
 
     .social {
+        display: inline;
+        margin-left: 0;
         /* outline: 1px solid red; */
-        /* display: inline; */
-        margin-left: 50%;
 
 
     }
@@ -369,12 +383,7 @@ nav ul {
 
     }
 
-    .buttons {
-        display: flex;
-        /* margin-bottom: 9rem; */
-        /* border: 3px solid black; */
 
-    }
 
     .mybtn {
         border: none;
@@ -442,6 +451,7 @@ nav ul {
         /* outline: 1px solid red; */
         padding-top: 3rem;
         margin-bottom: 1rem;
+        margin-top: 15rem;
     }
 
     #html {
@@ -502,5 +512,34 @@ nav ul {
     #btn-click {
         margin-left: 25%
     }
+
+    .main-btn {
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        /* margin: auto */
+    }
+
+    .big {
+        font-size: 3rem;
+    }
+
+    .carImg {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #carpad {
+        margin-left: 2rem;
+        padding-left: 1rem;
+        /* outline:1px solid */
+    }
+
+    /* .comb2{
+        outline: 1px solid 
+    }
+
+    .gauge{
+        outline: 1px solid 
+    } */
 
 }
